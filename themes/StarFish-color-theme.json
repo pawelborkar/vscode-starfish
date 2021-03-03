@@ -1,17 +1,19 @@
 {
 	"name": "StarFish",
 	"type": "dark",
-	"author": "Pawel Borkar",    //   https://www.github.com/pawelborkar
+	"author": "Pawel Borkar",    // https://www.github.com/pawelborkar
 	"colors": {
 		"editor.background": "#000000",
-		"editor.foreground": "#fff9c8",
+		"editor.foreground": "#ffffff",
 		"editorCursor.foreground": "#00f7ff",
-		"editor.selectionHighlightBackground": "#ffff003a",
-		"editor.wordHighlightBackground": "#333332",
+		"editor.selectionHighlightBackground": "#8d8d8d62",
+		"editor.wordHighlightBackground": "#68686809",
         "editor.wordHighlightStrongBackground": "#DA0093",
+		"editor.selectionBackground": "#ff00885d",
   
 		"window.activeBorder":"#ff4800",
-		//Starts here
+		
+
 		"panel.background": "#000000",
         "panel.border": "#ff4800",
         "panelTitle.activeBorder": "#00f3d3",
@@ -22,9 +24,8 @@
 		"badge.background": "#ffd900",
 		"badge.foreground": "#000000",
 
-		
-		"editor.selectionBackground": "#ff00885d",
-		// "editor.selectionForeground": "#000000",
+	
+
 		"extensionButton.prominentHoverBackground": "#ff0080","extensionButton.prominentForeground": "#3b3b3b",
 		"extensionButton.prominentBackground": "#fbff00",
 
@@ -37,9 +38,8 @@
 		"input.background": "#6b6b6b5d",
 		"input.border": "#ff0080",
 
-		"menubar.selectionBackground": "#6161614f",
+		
 		"activityBarBadge.background": "#ffd900",
-		// "activityBarBadge.background": "#00ff158e", 
 		"activityBar.foreground": "#00ffff",	
 		"activityBar.inactiveForeground": "#ffffff6c",
 		"activityBarBadge.foreground": "#080808",
@@ -50,21 +50,37 @@
 
 		"menu.background": "#000000bb",
 		"menu.selectionBackground": "#ff00d44f",
+
+		"menubar.selectionBackground": "#6161614f",
+
+		"sideBarTitle.foreground": "#8b8b8b",
 		"sideBar.background": "#000000c9",
+		"sideBarSectionHeader.background": "#0000004f",
+
+		"button.background":"#ff0055",
+
+		"checkbox.border":"#ffd900",
+		"checkbox.foreground": "#ff0000",
+
 		"statusBar.background": "#000000c9",
 		"statusBar.foreground": "#616161",
-		"sideBarSectionHeader.background": "#0000004f",
-		"tab.activeBorderTop": "#ff00ff",
+		
+		"tab.activeBorderTop": "#e5ff00",
+		"tab.unfocusedActiveBorderTop":"#00aeff",
 		"tab.border": "#00000059",
 		"tab.activeBackground": "#000000",
-		"tab.inactiveBackground": "#000000",
+		"tab.inactiveBackground": "#1d1d1d62",
+		"tab.hoverBorder":"#ffffff6c",
+		"tab.hoverBackground": "#000000",
 		
 		"list.hoverForeground":"#ffc400",
 		"list.activeSelectionBackground":"#5750504f",
 		"list.activeSelectionForeground":"#ffd000",
 		// "list.activeSelectionForeground":"#ffd000",
 
-		"sideBarTitle.foreground": "#8b8b8b"
+		"descriptionForeground":"#ffffff",
+
+		
 	},
 	"tokenColors": [
 		{
