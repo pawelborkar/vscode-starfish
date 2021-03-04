@@ -30,7 +30,12 @@
 
 		"diffEditor.insertedTextBackground":"#20a5842d",
 
-		// "window.activeBorder":"#ff4800",
+
+		/*************************  BREADCRUMS  *************************/
+
+		"breadcrumb.foreground":"#6e6e6e",
+		"breadcrumb.activeSelectionForeground":"#ff0080",
+		"breadcrumbPicker.background":"#292929a4",
 
 
 		/*************************  TITLE-BAR  *************************/
@@ -38,6 +43,7 @@
 		"titleBar.activeBackground": "#000000",
 		"titleBar.activeForeground": "#999999a8",
 		"titleBar.inactiveForeground":"#ffd900",
+
 		
 		/*************************  PANEL  *************************/
 		"panel.background": "#000000",
@@ -71,8 +77,7 @@
 
 		/*************************  INPUT  *************************/
 		
-		"input.background": "#6b6b6b5d",
-		"input.border": "#ff0080",
+		"input.background": "#4444447c",
 		
 		
 		/*************************  TEXT  *************************/
@@ -82,8 +87,6 @@
 		"textBlockQuote.background":"#0000004f",
 		"textCodeBlock.background":"#0000004f",
 		"textBlockQuote.border": "#ff0000",
-
-
 
 
 		/*************************  ACTIVITY BAR  *************************/	
@@ -100,8 +103,8 @@
 
 		"menu.background": "#000000bb",
 		"menu.selectionBackground": "#ff00d44f",
-		"menubar.selectionBackground": "#6161614f",
-
+		"menubar.selectionBackground": "#4d4d4d4f",
+		"menu.border":"#bbbbbb46",
 
 		/*************************  SIDE-BAR  *************************/
 
@@ -114,8 +117,7 @@
 
 		/*************************  CHECKBOX  *************************/
 
-		"checkbox.border":"#ffd900",
-		"checkbox.foreground": "#ff0000",
+		"checkbox.foreground": "#00ebb8",
 
 		
 		/*************************  TAB  *************************/
@@ -148,17 +150,36 @@
 		"statusBar.background": "#000000c9",
 		"statusBar.foreground": "#616161",
 		"statusBarItem.activeBackground":"#50002b",
-
-
 		
-		/*************************  STATUS-BAR  *************************/
+		
+		/*************************  NOTIFICATION  *************************/
+		
+		"notifications.background":"#00000023",
+		"notificationCenterHeader.background":"#ff006225",
+		"notificationCenter.border":"#00fff2",
+		"notificationsErrorIcon.foreground":"#ff0000",
+		"notificationsWarningIcon.foreground":"#ffd000",
+		"notificationsInfoIcon.foreground":"#00ffb3",
+		"notificationLink.foreground":"#00d9ff",
 
+
+		/*************************  MINIMAP  *************************/
+		
 		"minimap.selectionHighlight":"#ffffffa9",
 		"minimapSlider.hoverBackground":"#08f7ff3a",
 		"minimapGutter.deletedBackground":"#ff0000",
 		"minimapGutter.addedBackground":"#00ff55",
 		"minimapGutter.modifiedBackground":"#eeff00",
-		"minimap.findMatchHighlight":"#00ffff"
+		"minimap.findMatchHighlight":"#00ffff",
+
+
+		/*************************  GIT  *************************/
+
+		"gitDecoration.stageModifiedResourceForeground":"#fbff02",
+		"gitDecoration.untrackedResourceForeground":"#00ffffd5",
+		"gitDecoration.addedResourceForeground":"#00ff22",
+
+		
 	},
 	"tokenColors": [
 		{
@@ -229,7 +250,7 @@
 				"keyword.other.substitution"
 			],
 			"settings": {
-				"foreground": "#ff89ff"
+				"foreground": "#ffffff"
 			}
 		},
 		{
@@ -253,7 +274,23 @@
 				"keyword.other.special-method"
 			],
 			"settings": {
-				"foreground": "#fbff00"
+				"foreground": "#00ffff"
+				// "foreground": "#fbff00"
+				// "foreground": "#00ff88"          
+			}
+		},
+		{
+			"name": "Special Method",
+			"scope": [
+				// "entity.name.function",
+				"meta.function-call",
+				// "variable.function",
+				// "support.function",
+				// "keyword.other.special-method"
+			],
+			"settings": {
+				"foreground": "#20dd20"
+				// "foreground": "#fbff00"
 				// "foreground": "#00ff88"          
 			}
 		},
@@ -289,13 +326,13 @@
 				"keyword.other"
 			],
 			"settings": {
-				"foreground": "#20a584"
+				"foreground": "#ff7e34"
 			}
 		},
 		{
-			"name": "String, Symbols, Inherited Class, Markup Heading",
+			"name": "Symbols, Inherited Class, Markup Heading",
 			"scope": [
-				"string",
+				
 				"constant.other.symbol",
 				"constant.other.key",
 				"entity.other.inherited-class",
@@ -304,7 +341,16 @@
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
-				"foreground": "#C3E88D"
+				"foreground": "#ff0077"
+			}
+		},
+		{
+			"name": "String",
+			"scope": [
+				"string",
+			],
+			"settings": {
+				"foreground": "#eeff00"
 			}
 		},
 		{
@@ -343,7 +389,7 @@
 				"source.postcss support.type.property-name"
 			],
 			"settings": {
-				"foreground": "#B2CCD6"
+				"foreground": "#ffffff"
 			}
 		},
 		{
@@ -354,7 +400,7 @@
 				"variable.other.class.js"
 			],
 			"settings": {
-				"foreground": "#FF5370"
+				"foreground": "#fd0076"
 			}
 		},
 		{
@@ -640,7 +686,7 @@
 			],
 			"settings": {
 				"fontStyle": "bold",
-				"foreground": "#f07178"
+				"foreground": "#f49eff"
 			}
 		},
 		{
