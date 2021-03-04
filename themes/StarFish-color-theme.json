@@ -1,8 +1,19 @@
 {
 	"name": "StarFish",
 	"type": "dark",
-	"author": "Pawel Borkar",    // https://www.github.com/pawelborkar
+	"author": "Pawel Borkar",     //  (https://github.com/PawelBorkar)  		
 	"colors": {
+		
+		/*************************  I ❤ OpenSource  *************************/
+
+		/*************************
+		@Author: Pawel Borkar 
+		@Repository:  (https://github.com/pawelborkar/vscode-starfish)
+		@License: Apache-2.0 License
+		@Since: Mar 1, 2021 - present
+        *************************/
+
+		/*************************  EDITOR  *************************/
 		"editor.background": "#000000",
 		"editor.foreground": "#ffffff",
 		"editorCursor.foreground": "#00f7ff",
@@ -10,10 +21,25 @@
 		"editor.wordHighlightBackground": "#68686809",
         "editor.wordHighlightStrongBackground": "#DA0093",
 		"editor.selectionBackground": "#ff00885d",
-  
-		"window.activeBorder":"#ff4800",
-		
+		"editor.findMatchHighlightBackground":"#5f5f5fde",
+		"editorError.foreground":"#ff0000",
+		"editorWarning.foreground":"#ffa600de",
+		"editorInfo.border":"#ff4800",
+		"editorLineNumber.foreground":"#8686867c",
+		"editorLineNumber.activeForeground":"#ffffffb2",
 
+		"diffEditor.insertedTextBackground":"#20a5842d",
+
+		// "window.activeBorder":"#ff4800",
+
+
+		/*************************  TITLE-BAR  *************************/
+
+		"titleBar.activeBackground": "#000000",
+		"titleBar.activeForeground": "#999999a8",
+		"titleBar.inactiveForeground":"#ffd900",
+		
+		/*************************  PANEL  *************************/
 		"panel.background": "#000000",
         "panel.border": "#ff4800",
         "panelTitle.activeBorder": "#00f3d3",
@@ -21,24 +47,46 @@
         "panelTitle.inactiveForeground": "#ffffff",
 		"panel.dropBorder":"#ff0000",
 
+	
+		/*************************  BADGE  *************************/
+
 		"badge.background": "#ffd900",
 		"badge.foreground": "#000000",
 
-	
+
+		/*************************  EXTENSION  *************************/
 
 		"extensionButton.prominentHoverBackground": "#ff0080","extensionButton.prominentForeground": "#3b3b3b",
 		"extensionButton.prominentBackground": "#fbff00",
 
 		"icon.foreground":"#ffd900",
 		"progressBar.background": "#ff4800",
+
 		
+		/*************************  DROPDOWN  *************************/
+
 		"dropdown.background": "#6161614f",
 		"dropdown.listBackground": "#6161614f",
 
+
+		/*************************  INPUT  *************************/
+		
 		"input.background": "#6b6b6b5d",
 		"input.border": "#ff0080",
-
 		
+		
+		/*************************  TEXT  *************************/
+
+		"textLink.foreground":"#00d9ff",
+		"textLink.activeForeground":"#00d9ff",
+		"textBlockQuote.background":"#0000004f",
+		"textCodeBlock.background":"#0000004f",
+		"textBlockQuote.border": "#ff0000",
+
+
+
+
+		/*************************  ACTIVITY BAR  *************************/	
 		"activityBarBadge.background": "#ffd900",
 		"activityBar.foreground": "#00ffff",	
 		"activityBar.inactiveForeground": "#ffffff6c",
@@ -48,10 +96,14 @@
 		"activityBar.activeFocusBorder": "#ffd900",
 
 
+		/*************************  MENU  *************************/
+
 		"menu.background": "#000000bb",
 		"menu.selectionBackground": "#ff00d44f",
-
 		"menubar.selectionBackground": "#6161614f",
+
+
+		/*************************  SIDE-BAR  *************************/
 
 		"sideBarTitle.foreground": "#8b8b8b",
 		"sideBar.background": "#000000c9",
@@ -59,12 +111,15 @@
 
 		"button.background":"#ff0055",
 
+
+		/*************************  CHECKBOX  *************************/
+
 		"checkbox.border":"#ffd900",
 		"checkbox.foreground": "#ff0000",
 
-		"statusBar.background": "#000000c9",
-		"statusBar.foreground": "#616161",
 		
+		/*************************  TAB  *************************/
+
 		"tab.activeBorderTop": "#e5ff00",
 		"tab.unfocusedActiveBorderTop":"#00aeff",
 		"tab.border": "#00000059",
@@ -73,14 +128,37 @@
 		"tab.hoverBorder":"#ffffff6c",
 		"tab.hoverBackground": "#000000",
 		
-		"list.hoverForeground":"#ffc400",
-		"list.activeSelectionBackground":"#5750504f",
-		"list.activeSelectionForeground":"#ffd000",
-		// "list.activeSelectionForeground":"#ffd000",
+	
+		/*************************  LIST  *************************/
 
+		"list.hoverForeground":"#ffc400",	
+		"list.activeSelectionBackground":"#5750504f",
+		"list.activeSelectionForeground":"#ffd000",	
+		"list.hoverBackground":"#4e484862",
+		"list.focusForeground":"#ffc400",	
+		"list.errorForeground":"#ff0000",
+		"list.inactiveSelectionForeground":"#ffffff",
 		"descriptionForeground":"#ffffff",
 
 		
+		/*************************  STATUS-BAR  *************************/
+		
+		"statusBar.debuggingBackground":"#ff3300",
+		"statusBar.debuggingForeground":"#ffffff",
+		"statusBar.background": "#000000c9",
+		"statusBar.foreground": "#616161",
+		"statusBarItem.activeBackground":"#50002b",
+
+
+		
+		/*************************  STATUS-BAR  *************************/
+
+		"minimap.selectionHighlight":"#ffffffa9",
+		"minimapSlider.hoverBackground":"#08f7ff3a",
+		"minimapGutter.deletedBackground":"#ff0000",
+		"minimapGutter.addedBackground":"#00ff55",
+		"minimapGutter.modifiedBackground":"#eeff00",
+		"minimap.findMatchHighlight":"#00ffff"
 	},
 	"tokenColors": [
 		{
@@ -91,8 +169,6 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				// "foreground": "#ff006a"
-				// "foreground": "#00ffffca"
 				"foreground": "#838383"
 			}
 		},
