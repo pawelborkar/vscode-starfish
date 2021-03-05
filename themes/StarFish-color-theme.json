@@ -62,8 +62,8 @@
 
 		/*************************  EXTENSION  *************************/
 
-		"extensionButton.prominentHoverBackground": "#ff0080","extensionButton.prominentForeground": "#3b3b3b",
-		"extensionButton.prominentBackground": "#fbff00",
+		"extensionButton.prominentHoverBackground": "#ff0080","extensionButton.prominentForeground": "#ffffff",
+		"extensionButton.prominentBackground": "#ff0040",
 
 		"icon.foreground":"#ffd900",
 		"progressBar.background": "#ff4800",
@@ -288,29 +288,22 @@
 			"name": "Function, Special Method",
 			"scope": [
 				"entity.name.function",
-				// "meta.function-call",
+				
 				"variable.function",
 				"support.function",
 				"keyword.other.special-method"
 			],
 			"settings": {
-				"foreground": "#00ffff"
-				// "foreground": "#fbff00"
-				// "foreground": "#00ff88"          
+				"foreground": "#00ffff"       
 			}
 		},
 		{
 			"name": "Special Method",
 			"scope": [
-				// "entity.name.function",
 				"meta.function-call",
-				// "variable.function",
-				// "support.function",
-				// "keyword.other.special-method"
 			],
 			"settings": {
 				"foreground": "#20dd20"
-				 
 			}
 		},
 		{
@@ -406,7 +399,6 @@
 			],
 			"settings": {
 				"foreground": "#bd77fffd"
-				// "foreground": "#00ff2a"
 			}
 		},
 		{

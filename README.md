@@ -1,8 +1,13 @@
 <div align="center">
 
-# ✨StarFish 🐠
+# StarFish 
 
->*Theme you always wanted but never had.*
+![Logo](assets/starfish.png)
+
+*The Theme you always wanted but never had.*
+
+<br>
+
 
 <br>
 
@@ -11,10 +16,35 @@
 ![Message](https://img.shields.io/badge/I%20%E2%9D%A4%20-OpenSource-%23ff0055)
 ![Version](https://img.shields.io/badge/Latest-V%200.0.1-%23ff0055)
 
-  ---
-</div>
+---
 
 <br>
+
+![Preview](assets/Preview.png)
+
+<br>
+
+  ---
+<br>
+</div>
+
+# Installation
+
+1. Open  *Extensions* from the Activity Bar  in VS Code. `View → Extensions`
+2. Search for `StarFish`, choose "StarFish Theme" by *Pawel Borkar*
+3. Click *Install*
+4. Navigate to File > Preferences > Color Theme >`StarFish`
+
+<br>
+
+## Author
+
+----
+
+<br>
+
+![Pawel Borkar](https://github.com/pawelborkar) 
+
 <br>
 
 
