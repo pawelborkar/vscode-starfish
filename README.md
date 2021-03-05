@@ -39,8 +39,6 @@
 
 ## Author
 
-----
-
 <br>
 
 ![Pawel Borkar](https://github.com/pawelborkar) 
