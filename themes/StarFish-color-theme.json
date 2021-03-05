@@ -204,6 +204,17 @@
 			}
 		},
 		{
+			"name": "String constant",
+			"scope": [
+				// "variable",
+				// "variable.other.readwrite",
+				"string constant.other.placeholder"
+			],
+			"settings": {
+				"foreground": "#fa71ff"
+			}
+		},
+		{
 			"name": "Colors",
 			"scope": [
 				"constant.other.color"
@@ -254,6 +265,15 @@
 			}
 		},
 		{
+			"name": "Operator, Misc",
+			"scope": [
+				"keyword.control",
+			],
+			"settings": {
+				"foreground": "#ff006a"
+			}
+		},
+		{
 			"name": "Tag",
 			"scope": [
 				"entity.name.tag",
@@ -268,7 +288,7 @@
 			"name": "Function, Special Method",
 			"scope": [
 				"entity.name.function",
-				"meta.function-call",
+				// "meta.function-call",
 				"variable.function",
 				"support.function",
 				"keyword.other.special-method"
@@ -290,8 +310,7 @@
 			],
 			"settings": {
 				"foreground": "#20dd20"
-				// "foreground": "#fbff00"
-				// "foreground": "#00ff88"          
+				 
 			}
 		},
 		{
@@ -327,6 +346,17 @@
 			],
 			"settings": {
 				"foreground": "#ff7e34"
+			}
+		},
+		{
+			"name": "Tag Attribute, Embedded",
+			"scope": [
+				
+				"keyword.other.unit",
+				"keyword.other"
+			],
+			"settings": {
+				"foreground": "#82fbff"
 			}
 		},
 		{
@@ -375,7 +405,8 @@
 				"support.type"
 			],
 			"settings": {
-				"foreground": "#B2CCD6"
+				"foreground": "#bd77fffd"
+				// "foreground": "#00ff2a"
 			}
 		},
 		{
@@ -590,7 +621,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#C17E70"
+				"foreground": "#da8878"
 			}
 		},
 		{
