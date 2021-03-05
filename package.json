@@ -2,18 +2,18 @@
     "name": "starfish",
     "displayName": "StarFish Theme",
     "description": "StarFish - Theme you always wanted but never had.",
-    "version": "0.0.1",
-    "publisher":"PawelBorkar",       
+    "version": "0.0.2",
+    "publisher": "PawelBorkar",
     "license": "Apache-2.0 License",
     "author": {
         "name": "Pawel Borkar"
-      },
-    
+    },
     "engines": {
         "vscode": "^1.31.0"
     },
     "categories": [
-        "Themes","Other"
+        "Themes",
+        "Other"
     ],
     "icon": "assets/starfish.png",
     "contributes": {
@@ -28,10 +28,10 @@
     "bugs": {
         "url": "https://github.com/pawelborkar/vscode-starfish/issues",
         "email": "pawelbr@pm.me"
-      },
-      "repository": {
+    },
+    "repository": {
         "type": "git",
         "url": "https://github.com/pawelborkar/vscode-starfish.git"
-      },
-      "homepage": "https://github.com/pawelborkar/vscode-starfish/blob/star/README.md"
+    },
+    "homepage": "https://github.com/pawelborkar/vscode-starfish/blob/star/README.md"
 }
