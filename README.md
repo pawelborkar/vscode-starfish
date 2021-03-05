@@ -2,12 +2,11 @@
 
 # StarFish 
 
-![Logo](assets/starfish.png)
+![Logo](https://raw.githubusercontent.com/PawelBorkar/vscode-starfish/star/assets/starfish.png)
 
 *The Theme you always wanted but never had.*
 
 <br>
-
 
 <br>
 
@@ -20,7 +19,7 @@
 
 <br>
 
-![Preview](assets/Preview.png)
+![Preview](https://raw.githubusercontent.com/PawelBorkar/vscode-starfish/star/assets/Preview.png)
 
 <br>
 
@@ -39,9 +38,7 @@
 
 ## Author
 
-<br>
-
-![Pawel Borkar](https://github.com/pawelborkar) 
+[Pawel Borkar](https://github.com/pawelborkar) 
 
 <br>
 
