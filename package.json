@@ -26,12 +26,12 @@
         ]
     },
     "bugs": {
-        "url": "https://github.com/pawelbr/vscode-starfish/issues",
+        "url": "https://github.com/pawelborkar/vscode-starfish/issues",
         "email": "pawelbr@pm.me"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/pawelbr/vscode-starfish.git"
+        "url": "https://github.com/pawelborkar/vscode-starfish.git"
     },
-    "homepage": "https://github.com/pawelbr/vscode-starfish/blob/star/README.md"
+    "homepage": "https://github.com/pawelborkar/vscode-starfish/blob/star/README.md"
 }
